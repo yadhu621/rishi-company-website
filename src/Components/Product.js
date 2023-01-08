@@ -185,7 +185,7 @@ export default function Product() {
         <div className="certificate--box">
           <div className="certificate--container">
             <div className="certificate__img">
-              <img src="./images/iso.png" alt="" />
+              <img src="./images/iso.png" alt="" height={119}  width={119} />
             </div>
             <div className="certificate__details">
               <h5>Certificate Number</h5>

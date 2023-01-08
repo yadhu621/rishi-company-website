@@ -9,7 +9,7 @@
 
 body, html {
     overflow-x: hidden;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Rubik', sans-serif;
 }
 
 .row {
@@ -41,7 +41,8 @@ textarea {
 {
     background: #F26654;
     border-radius: 80px;
-    padding: 15px 80px;
+    padding: 25px 80px;
+    margin-top: 30px;
 }
 
 .contact--btn button,
@@ -88,14 +89,14 @@ textarea {
 }
 .product--container
 {
-    margin-top: 80px;
+    margin-top: 130px;
 }
 
 .home__header h1,
 .product__header h1
 {
     font-style: normal;
-    font-weight: 800;
+    font-weight: 700;
     font-size: 68px;
     line-height: 120%;
     color: #1B1819;
@@ -122,7 +123,7 @@ textarea {
 .hero,
 .team
 {
-    padding: 150px 100px;
+    padding: 130px 100px;
 }
 
 .about__header h2,
@@ -132,7 +133,7 @@ textarea {
 .data--header h2,
 .hero__header h2
 {
-    font-weight: 800;
+    font-weight: 700;
     font-size: 60px;
     line-height: 130%;
     letter-spacing: -0.02em;
@@ -155,7 +156,7 @@ textarea {
 {
     background: #F26654;
     border-radius: 8px;
-    padding: 70px 30px;
+    padding: 100px 40px;
 }
 
 .solar__header h3
@@ -171,7 +172,7 @@ textarea {
 .solar__img 
 {
     position: absolute;
-    bottom: -70px;
+    bottom: -100px;
 }
 
 .contact--container
@@ -469,11 +470,12 @@ textarea {
 {
     background: url("/public/images/teambg.png");
     background-size: cover;
+    height: 938px;
 }
 
 .swiper-pointer-events.swiper-vertical
 {
-    height: 500px;
+    height: 365px;
     margin-top: 90px;
 }
 
@@ -492,6 +494,7 @@ textarea {
 {
     width: 4px;
     height: 30px;
+    border-radius: 0;
 }
 
 .swiper-pagination-bullet-active
@@ -503,4 +506,9 @@ textarea {
 .swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets
 {
     top: 30%;
+}
+
+.certificate .container
+{
+    padding: 0 100px;
 }

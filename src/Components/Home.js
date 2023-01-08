@@ -19,7 +19,7 @@ export default function Home() {
                         <div className="header__subheading mt-3">
                             <h4>Our expertise is development of custom-made digital applications for the industry. </h4>
                         </div>
-                        <div className="header__img mt-3">
+                        <div className="header__img mt-4">
                             <img src="./images/home1.png" alt="" />
                         </div>
                     </div>
@@ -53,7 +53,7 @@ export default function Home() {
                             <div className="solar__header">
                                 <h3>Install Solar projects quicker and better with Surya</h3>
                             </div>
-                            <div className="solar__product--btn">
+                            <div className="solar__product--btn mt-3">
                                 <Link to={'/product'}><button type='submit'>View products</button></Link>
                             </div>
                         </div>

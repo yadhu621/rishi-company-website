@@ -56,10 +56,12 @@ export default function OurTeam() {
         direction={"vertical"}
         slidesPerView={1}
         spaceBetween={30}
+        
         mousewheel={true}
         pagination={{
           clickable: true,
         }}
+       
         modules={[Mousewheel, Pagination]}
         className="mySwiper"
       >
