@@ -48,7 +48,7 @@ export default function Product() {
               </div>
               <div className="surya__list d-flex align-items-center mt-4">
                 <div className="success--logo">
-                  <img src="./images/success.png" alt="" height={32} width={32} />
+                  <img src="./images/Success.png" alt="" height={32} width={32} />
                 </div>
                 <div className="success--paragraph">
                   <p>Record, monitor and track construction progress</p>
@@ -62,7 +62,7 @@ export default function Product() {
               </div>
               <div className="surya__list d-flex align-items-center mt-4">
                 <div className="success--logo">
-                  <img src="./images/success.png" alt="" height={32} width={32} />
+                  <img src="./images/Success.png" alt="" height={32} width={32} />
                 </div>
                 <div className="success--paragraph">
                   <p>Add details of site staff, manage and track work hours by activity</p>
@@ -76,7 +76,7 @@ export default function Product() {
               </div>
               <div className="surya__list d-flex align-items-center mt-4">
                 <div className="success--logo">
-                  <img src="./images/success.png" alt="" height={32} width={32} />
+                  <img src="./images/Success.png" alt="" height={32} width={32} />
                 </div>
                 <div className="success--paragraph">
                   <p>Conduct quality checks, add to punch lists, track resolution</p>
