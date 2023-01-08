@@ -49,7 +49,7 @@ export default function Home() {
             <section className="solar">
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6">
+                        <div className="col-sm-12 col-md-6 col-lg-6">
                             <div className="solar__header">
                                 <h3>Install Solar projects quicker and better with Surya</h3>
                             </div>
@@ -57,7 +57,7 @@ export default function Home() {
                                 <Link to={'/product'}><button type='submit'>View products</button></Link>
                             </div>
                         </div>
-                        <div className="col-lg-6 position-relative">
+                        <div className="col-sm-12 col-md-6 col-lg-6 position-relative">
                             <div className="solar__img">
                                 <img src="./images/solar.png" alt="" />
                             </div>

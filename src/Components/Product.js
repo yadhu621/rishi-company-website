@@ -110,7 +110,7 @@ export default function Product() {
           <h2>Why become a member of Surya</h2>
         </div>
         <div className="row mt-15">
-          <div className="col-lg-4">
+          <div className="col-sm-12 col-md-4 col-lg-4">
             <div className="member-box">
               <div className="member--icon">
                 <img src="./images/data.png" alt="" />
@@ -124,7 +124,7 @@ export default function Product() {
             </div>
           </div>
 
-          <div className="col-lg-4">
+          <div className="col-sm-12 col-md-4 col-lg-4">
             <div className="member-box">
               <div className="member--icon">
                 <img src="./images/reaily.png" alt="" />
@@ -138,7 +138,7 @@ export default function Product() {
             </div>
           </div>
 
-          <div className="col-lg-4">
+          <div className="col-sm-12 col-md-4 col-lg-4">
             <div className="member-box">
               <div className="member--icon">
                 <img src="./images/benefit.png" alt="" />

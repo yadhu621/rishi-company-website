@@ -1,0 +1,113 @@
+@media (max-width: 500px) {
+    .header--container
+    {
+        padding: 5px 20px;
+    }
+
+    .home__header h1, .product__header h1
+    {
+        font-size: 40px;
+    }
+
+    .nav-bar
+    {
+        align-items: initial !important;
+    }
+
+    .nav-bar a
+    {
+        color: #F26654;
+        padding: 20px 0;
+
+    }
+
+    .active
+    {
+        background: none;
+        padding: 0;
+    }
+
+    .header__subheading h4, .product__subheading h4,
+    .about__paragraph p, .data--paragraph p, .hero__paragrapgh p, .team__paragraph p,
+    .team__title h4, .surya__paragraph p, .success--paragraph p, .surya--paragraph p
+    {
+        font-size: 18px;
+    }
+
+    .about, .solar, .Contact, .surya, .member, .data, .certificate, .hero, .team
+    {
+        padding: 100px 0;
+    }
+
+    .about__header h2, .team__header h2, .contact__header h2, .member--header h2, .data--header h2, .hero__header h2,
+    .surya--topic h3, .surya--header h2
+    {
+        font-size: 30px;
+    }
+
+    .solar .container
+    {
+        padding: 70px 10px;
+        padding-bottom: 0;
+    }
+
+    .contact--btn button, .solar__product--btn button
+    {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+    .solar__img
+    {
+        position: initial;
+    }
+    .solar__header h3
+    {
+        font-size: 20px;
+    }
+    .solar .row
+    {
+        row-gap: 25px;
+    }
+    .contact__name h3, .team__name h3
+    {
+        font-size: 25px;
+    }
+    .team__img img {
+        width: 276px;
+        height: 270px;
+    }
+
+    .footer
+    {
+        padding: 40px 10px;
+    }
+    .footer--container
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__menu
+    {
+        margin-top: 25px;
+    }
+    .footer__menu ul
+    {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+        padding-left: 0;
+    }
+
+    .why--surya .container
+    {
+        padding: 95px 10px;
+    }
+    .member .row
+    {
+        row-gap: 50px;
+    }
+    .member-box
+    {
+        height: 365px;
+    }
+}
