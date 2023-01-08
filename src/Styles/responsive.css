@@ -125,9 +125,14 @@
         height: 365px;
     }
 
+    .certificate--box
+    {
+        padding: 25px 12px;
+    }
+
     .certificate .container
     {
-        padding: 0;
+        padding: 0 10px;
     }
     .certificate__details h5
     {
