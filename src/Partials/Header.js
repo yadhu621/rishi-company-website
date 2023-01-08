@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -23,8 +23,8 @@ export default function Header() {
                     </Offcanvas.Header>
                     <Offcanvas.Body>
                         <Nav className="nav-bar justify-content-center flex-grow-1 align-items-center pe-3">
-                            <Nav.Link href="/">Home</Nav.Link>
-                            <Nav.Link href="/product">Product</Nav.Link>
+                            <NavLink to="/" >Home</NavLink>
+                            <NavLink to="/product">Product</NavLink>
                         </Nav>
                         <div className="contact--btn"> 
                             <Link><button type='submit'>Contact Us</button></Link>
