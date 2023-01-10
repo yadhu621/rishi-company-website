@@ -537,3 +537,44 @@ textarea {
 {
     padding: 0 100px;
 }
+
+.certificate__arrow img
+{
+    cursor: pointer;
+}
+
+.modal-lg, .modal-xl
+{
+    max-width: 100%;
+}
+
+.modal-body
+{
+    text-align: center;
+}
+
+.modal-header
+{
+    border-bottom: none;
+    justify-content: end !important;
+}
+
+.modal-header svg
+{
+    font-size: 1.5em;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.modal-header .btn-close
+{
+    margin: 0;
+    margin-left: 25px;
+    filter: invert(1);
+}
+
+.modal-content
+{
+    background: none !important;
+    border: none !important;
+}
