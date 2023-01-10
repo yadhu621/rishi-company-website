@@ -21,6 +21,7 @@ export default function Home() {
                         </div>
                         <div className="header__img mt-4">
                             <img src="./images/home1.png" alt="" />
+                            <img src="./images/home2.png" alt="" />
                         </div>
                     </div>
                 </div>

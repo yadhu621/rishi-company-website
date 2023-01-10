@@ -2,6 +2,8 @@ import React from 'react'
 import Footer from '../Partials/Footer'
 import Header from '../Partials/Header'
 
+import { fadeIn, slideInDown } from 'react-animations'
+
 export default function Product() {
   return (
     <>
