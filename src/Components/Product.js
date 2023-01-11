@@ -76,7 +76,7 @@ export default function Product() {
               </div>
 
               <div className="surya--animation">
-                <div className="surya--box">
+                <div className="surya--box" data-aos="slide-down">
                   <div className="surya--topic">
                     <h3>Visualize</h3>
                   </div>
@@ -90,7 +90,7 @@ export default function Product() {
                   </div>
                 </div>
 
-                <div className="surya--box">
+                <div className="surya--box" data-aos="slide-down">
                   <div className="surya--topic">
                     <h3>Manage</h3>
                   </div>
@@ -104,7 +104,7 @@ export default function Product() {
                   </div>
                 </div>
 
-                <div className="surya--box">
+                <div className="surya--box" data-aos="slide-down">
                   <div className="surya--topic">
                     <h3>Assure</h3>
                   </div>
@@ -119,9 +119,11 @@ export default function Product() {
                 </div>
               </div>
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6" style={{overflow: "hidden"}}>
               <div className="surya--img">
                 <img src="./images/visualize.png" alt="" />
+                <img src="./images/manage.png" alt="" />
+                <img src="./images/assure.png" alt="" />
               </div>
             </div>
           </div>

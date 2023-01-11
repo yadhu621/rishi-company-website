@@ -597,3 +597,28 @@ textarea {
 {
     margin-bottom: 100px;
 }
+
+.surya--img 
+{
+    width: 100%;
+    display: flex;
+    animation: slide1 20s infinite;
+}
+
+@keyframes slide1{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    100%{
+        transform: translateX(-200%);
+    }
+}

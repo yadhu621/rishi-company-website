@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="container">
             <div className="footer--container">
                 <div className="footer__logo">
-                    <img src="./images/footerlogo.svg" alt="" />
+                    <Link to={"/"}><img src="./images/footerlogo.svg" alt="" /></Link>
                 </div>
                 <div className="footer__menu">
                     <ul>
