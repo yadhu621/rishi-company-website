@@ -140,7 +140,7 @@ textarea {
 
 .about,
 .solar,
-.Contact,
+.contact,
 .surya,
 .member,
 .data,
@@ -148,7 +148,7 @@ textarea {
 .hero,
 .team
 {
-    padding: 130px 100px;
+    padding: 130px 0px;
 }
 
 .about__header h2,
@@ -204,6 +204,11 @@ textarea {
 {
     padding: 40px;
     margin-top: 50px;
+    background: #FFFFFF;
+    border: 1px solid rgba(106, 113, 124, 0.2);
+    border-radius: 16px;
+    width: 590px;
+    height: 221px;
 }
   
 .contact__name h3,
@@ -502,7 +507,7 @@ textarea {
 {
     background: url("/public/images/teambg.png");
     background-size: cover;
-    height: 938px;
+    height: 835px;
 }
 
 .swiper-pointer-events.swiper-vertical

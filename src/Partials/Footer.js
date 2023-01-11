@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import { HashLink } from 'react-router-hash-link'
 
 export default function Footer() {
   return (
@@ -13,10 +14,10 @@ export default function Footer() {
                 <div className="footer__menu">
                     <ul>
                         <Link to={"/"}><li>Home</li></Link>
-                        <li>About us</li>
-                        <li>Team</li>
-                        <li>Contact us</li>
-                        <li>Certificate</li>
+                        <HashLink to={"/#about"} smooth><li>About us</li></HashLink>
+                        <HashLink to={"/#our-team"} smooth><li>Team</li></HashLink>
+                        <HashLink to={"/#contact-us"} smooth><li>Contact us</li></HashLink>
+                        <HashLink to={"/product#certificate"} smooth><li>Certificate</li></HashLink>
                     </ul>
                 </div>
             </div>

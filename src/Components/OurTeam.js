@@ -47,7 +47,7 @@ const team=[
 export default function OurTeam() {
   return (
     <>
-    <section className="team">
+    <section className="team" id='our-team'>
         <div className="container">
             <div className="team__header text-center">
                 <h2>Our Team</h2>
@@ -69,12 +69,12 @@ export default function OurTeam() {
           team.map((ele, index)  =>{
           return( <SwiperSlide key={index}>
             <div className="row">
-                <div className="col-lg-6 d-flex align-items-center justify-content-center">
+                <div className="col-sm-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center">
                     <div className="team__img">
                         <img src={ele.image} alt="" />
                     </div>
                 </div>
-                <div className="col-lg-6">
+                <div className="col-sm-12 col-md-6 col-lg-6">
                   <div className="team__name">
                     <h3>{ele.name}</h3>
                   </div>

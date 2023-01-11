@@ -3,10 +3,10 @@ import React from 'react'
 export default function ContactUs() {
   return (
     <>
-    <section className="Contact" id='contactUs'>
+    <section className="contact" id='contact-us'>
         <div className="container">
             <div className="row">
-                <div className="col-lg-7">
+                <div className="col-sm-12 col-md-7 col-lg-7">
                     <div className="contact__header">
                         <h2>Contact us</h2>
                     </div>
@@ -22,7 +22,7 @@ export default function ContactUs() {
                         </div>
                     </div>
                 </div>
-                <div className="col-lg-5 d-flex align-items-center justify-content-center">
+                <div className="col-sm-12 col-md-5 col-lg-5 d-flex align-items-center justify-content-center">
                     <div className="contact__img">
                         <img src="./images/contact.png" alt="" />
                     </div>

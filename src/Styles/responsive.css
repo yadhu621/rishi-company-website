@@ -38,7 +38,7 @@
 
     .about, .solar, .Contact, .surya, .member, .data, .certificate, .hero, .team
     {
-        padding: 100px 0;
+        padding: 100px 0px;
     }
 
     .about__header h2, .team__header h2, .contact__header h2, .member--header h2, .data--header h2, .hero__header h2,

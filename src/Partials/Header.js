@@ -1,6 +1,7 @@
 import React from 'react'
 
-import { Link, NavLink } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
@@ -27,7 +28,7 @@ export default function Header() {
                             <NavLink to="/product">Product</NavLink>
                         </Nav>
                         <div className="contact--btn"> 
-                            <Link><button type='submit'>Contact Us</button></Link>
+                        <HashLink to={"/#contact-us"} smooth><button type='submit'>Contact Us</button></HashLink>
                         </div>
                     </Offcanvas.Body>
                 </Navbar.Offcanvas>

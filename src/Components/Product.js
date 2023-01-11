@@ -43,7 +43,7 @@ export default function Product() {
           <div className="container">
             <div className="product--container">
               <div className="row">
-                <div className="col-lg-6">
+                <div className="col-sm-12 col-md-6 col-lg-6">
                   <div className='prdoduct--details'>
                     <div className="product__header">
                       <h1>Install Solar projects quicker & better with Surya</h1>
@@ -53,7 +53,7 @@ export default function Product() {
                     </div>
                   </div>
                 </div>
-                <div className="col-lg-6 d-flex align-items-end">
+                <div className="col-sm-12 col-md-6 col-lg-6 d-flex align-items-end">
                   <div className="product__img">
                     <img src="./images/product1.png" alt="" />
                   </div>
@@ -67,7 +67,7 @@ export default function Product() {
       <section className="surya">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6">
               <div className="surya__logo">
                 <img src="./images/suryalogo.png" alt="" height={52} width={135} />
               </div>
@@ -119,7 +119,7 @@ export default function Product() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6">
               <div className="surya--img">
                 <img src="./images/visualize.png" alt="" />
               </div>
@@ -193,7 +193,7 @@ export default function Product() {
       <section className="data">
         <div className="container">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6">
               <div className="data--header">
                 <h2>Data security</h2>
               </div>
@@ -213,14 +213,14 @@ export default function Product() {
               </div>
               
             </div>
-            <div className="col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6">
               <img src="./images/security.png" alt="" />
             </div>
           </div>
         </div>
       </section>
 
-      <section className='certificate'>
+      <section className='certificate' id='certificate'>
         <div className="container">
           <div className="certificate--box" onClick={() => setModalShow(true)}>
             <div className="certificate--container">

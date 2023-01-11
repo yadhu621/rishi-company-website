@@ -27,10 +27,10 @@ export default function Home() {
                 </div>
             </section>
 
-            <section className='about'>
+            <section className='about' id='about'>
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-6 d-flex justify-content-center flex-column">
+                        <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center flex-column">
                             <div className="about__header">
                                 <h2>About Rishi</h2>
                             </div>
@@ -38,7 +38,7 @@ export default function Home() {
                                 <p>Boutique technology consulting firm with a razor-sharp focus on utility scale solar industry. Our primary goal is to leverage all the latest digital technologies to lower the costs of construction and operation of solar power plants. In other words, we want to do our bit to make the world greener.</p>
                             </div>
                         </div>
-                        <div className="col-lg-6">
+                        <div className="col-sm-12 col-md-6 col-lg-6">
                             <div className="about__img">
                                 <img src="./images/about1.png" alt="" />
                             </div>
