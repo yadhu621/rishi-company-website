@@ -602,7 +602,7 @@ textarea {
 {
     width: 100%;
     display: flex;
-    animation: slide1 20s infinite;
+    animation: slide1 10s infinite;
 }
 
 @keyframes slide1{
@@ -610,12 +610,15 @@ textarea {
         transform: translateX(0);
     }
     25%{
+        transform: translateX(0);
+    }
+    40%{
         transform: translateX(-100%);
     }
-    50%{
+    60%{
         transform: translateX(-100%);
     }
-    75%{
+    80%{
         transform: translateX(-200%);
     }
     100%{
