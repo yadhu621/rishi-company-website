@@ -164,6 +164,20 @@ export default function Product() {
             <div className="col-sm-12 col-md-4 col-lg-4">
               <div className="member-box">
                 <div className="member--icon">
+                  <img src="./images/benefit.png" alt="" />
+                </div>
+                <div className="member--header">
+                  <h3>Derive Monetary Benefits</h3>
+                </div>
+                <div className="member--paragraph mt-3">
+                  <p>What’s more, companies could also derive direct monetary benefits by sharing their project specific data on our platform.</p>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-sm-12 col-md-4 col-lg-4">
+              <div className="member-box">
+                <div className="member--icon">
                   <img src="./images/reaily.png" alt="" />
                 </div>
                 <div className="member--header">
@@ -175,19 +189,6 @@ export default function Product() {
               </div>
             </div>
 
-            <div className="col-sm-12 col-md-4 col-lg-4">
-              <div className="member-box">
-                <div className="member--icon">
-                  <img src="./images/benefit.png" alt="" />
-                </div>
-                <div className="member--header">
-                  <h3>Derive Monetary Benefits</h3>
-                </div>
-                <div className="member--paragraph mt-3">
-                  <p>What’s more, companies could also derive direct monetary benefits by sharing their project specific data on our platform.</p>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
       </section>

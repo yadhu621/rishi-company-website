@@ -390,7 +390,7 @@ textarea {
     border-radius: 16px;
     padding: 24px;
     position: relative;
-    height: auto;
+    height: 350px;
 }
 
 .member--header h3
