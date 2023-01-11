@@ -118,7 +118,11 @@
     .member .row,
     .surya .row
     {
-        row-gap: 50px;
+        row-gap: 65px;
+    }
+    .swiper-slide .row
+    {
+        row-gap: 30px;
     }
     .member-box
     {
@@ -164,5 +168,23 @@
     {
         padding: 20px;
         margin-top: 0px;
+    }
+
+    .product--container
+    {
+        margin-top: 40px;
+    }
+    .prdoduct--details
+    {
+        margin-bottom: 50px;
+    }
+    .success--logo img
+    {
+        width: 25px;
+        height: 25px;
+    }
+    .team__paragraph 
+    {
+        margin-top: 2rem !important;
     }
 }

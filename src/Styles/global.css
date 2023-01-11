@@ -587,3 +587,8 @@ textarea {
     background: none !important;
     border: none !important;
 }
+
+.prdoduct--details
+{
+    margin-bottom: 100px;
+}

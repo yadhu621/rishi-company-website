@@ -44,7 +44,7 @@ export default function Product() {
             <div className="product--container">
               <div className="row">
                 <div className="col-lg-6">
-                  <div style={{ marginBottom: "100px" }}>
+                  <div className='prdoduct--details'>
                     <div className="product__header">
                       <h1>Install Solar projects quicker & better with Surya</h1>
                     </div>
