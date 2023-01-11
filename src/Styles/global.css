@@ -258,6 +258,11 @@ textarea {
     display: flex;
 }
 
+.footer__menu ul a
+{
+    text-decoration: none;
+}
+
 .footer__menu ul li
 {
     font-style: normal;
@@ -380,7 +385,7 @@ textarea {
     border-radius: 16px;
     padding: 24px;
     position: relative;
-    height: 298px;
+    height: auto;
 }
 
 .member--header h3
@@ -422,6 +427,7 @@ textarea {
 .data--paragraph p span
 {
     color: #F26654;
+    cursor: pointer;
 }
 
 .certificate--box
@@ -434,6 +440,7 @@ textarea {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .certificate--container
@@ -541,6 +548,8 @@ textarea {
 .certificate__arrow img
 {
     cursor: pointer;
+    width: 16px;
+    height: 32px;
 }
 
 .modal-lg, .modal-xl

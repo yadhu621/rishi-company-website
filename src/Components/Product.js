@@ -15,7 +15,6 @@ function MyVerticallyCenteredModal(props) {
   const downloadImage=()=> {
     saveAs(certificate, 'certificate.png')
   };
-  
   return (
     <Modal
       {...props}
@@ -199,7 +198,7 @@ export default function Product() {
                 <h2>Data security</h2>
               </div>
               <div className="data--paragraph mt-5">
-                <p>Your data security is our highest priority. Our company and the platform SURYA are assessed and conform to the requirements of <span>ISO 27001:2013</span> (Information security management system).
+                <p>Your data security is our highest priority. Our company and the platform SURYA are assessed and conform to the requirements of <span onClick={() => setModalShow(true)}>ISO 27001:2013</span> (Information security management system).
                   <br />
                   <br />
                   Yes, we are a startup but data security and compliance is where we spent first. We shunned the idea of building an MVP (Minimum viable product) or rather we interpreted it as Maximum Viable Product to offer you a fully functional & complete service with the necessary security systems in place.
@@ -207,7 +206,12 @@ export default function Product() {
                   <br />
                   That’s not all, we have plans to become SOC 2 compliant in 2023. Rest assured, the product will have the highest data security standards in line and most likely better than industry standards.
                 </p>
+                <MyVerticallyCenteredModal
+                show={modalShow}
+                onHide={() => setModalShow(false)}
+              />
               </div>
+              
             </div>
             <div className="col-lg-6">
               <img src="./images/security.png" alt="" />
@@ -218,7 +222,7 @@ export default function Product() {
 
       <section className='certificate'>
         <div className="container">
-          <div className="certificate--box">
+          <div className="certificate--box" onClick={() => setModalShow(true)}>
             <div className="certificate--container">
               <div className="certificate__img">
                 <img src="./images/iso.png" alt="" height={119} width={119} />
@@ -229,13 +233,13 @@ export default function Product() {
               </div>
             </div>
             <div className="certificate__arrow" >
-              <img src="./images/arrow.png" alt="" onClick={() => setModalShow(true)} />
-              <MyVerticallyCenteredModal
+              <img src="./images/arrow.png" alt="" />
+            </div>
+          </div>
+          <MyVerticallyCenteredModal
                 show={modalShow}
                 onHide={() => setModalShow(false)}
               />
-            </div>
-          </div>
         </div>
       </section>
 
