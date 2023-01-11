@@ -29,9 +29,9 @@
     }
 
     .header__subheading h4, .product__subheading h4,
-    .about__paragraph p, .data--paragraph p, .hero__paragrapgh p, .team__paragraph p,
+    .about__paragraph p, .data--paragraph p, .hero__paragrapgh p,
     .team__title h4, .surya__paragraph p, .success--paragraph p, .surya--paragraph p,
-    .certificate__details h3
+    .certificate__details h3, .contact__mail a, .contact__location h5
     {
         font-size: 18px;
     }
@@ -75,8 +75,8 @@
         font-size: 25px;
     }
     .team__img img {
-        width: 276px;
-        height: 270px;
+        width: 220px;
+        height: 210px;
     }
 
     .footer
@@ -134,7 +134,8 @@
     {
         padding: 0 10px;
     }
-    .certificate__details h5
+    .certificate__details h5,
+    .team__paragraph p
     {
         font-size: 14px;
     }
@@ -142,5 +143,26 @@
     {
         height: 50px;
         width: 14px;
+    }
+    .team
+    {
+        height: 760px;
+    }
+
+    .swiper
+    {
+        height: 680px;
+        margin: 0 50px;
+        margin-top: 40px;
+    }
+    .swiper-pagination-vertical.swiper-pagination-bullets, .swiper-vertical>.swiper-pagination-bullets
+    {
+        display: none;
+    }
+
+    .contact--container
+    {
+        padding: 20px;
+        margin-top: 0px;
     }
 }
