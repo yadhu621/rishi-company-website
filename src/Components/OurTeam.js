@@ -1,98 +1,157 @@
 import React from 'react'
 
-import { Swiper, SwiperSlide } from "swiper/react";
+// import { Swiper, SwiperSlide } from "swiper/react";
 
-// Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
+// // Import Swiper styles
+// import "swiper/css";
+// import "swiper/css/pagination";
 
 
-// import required modules
-import { Mousewheel, Pagination } from "swiper";
+// // import required modules
+// import { Mousewheel, Pagination } from "swiper";
 
-const team=[
+const team = [
   {
-    image:"./images/dhivya.png",
-    name:"Dhivya S",
-    title:"Founder",
-    paragraph:"A data geek at heart, Dhivya has worked in all the major big data platforms across different industries from Manufacturing, Telecom, Transport, Banking to FMCG. Dhivya is driven by a simple vision and that is to make the world a better place through technology and she thought what better way to do that than Solar and here we are."
+    image: "./images/dhivya.png",
+    name: "Dhivya S",
+    title: "Founder",
+    paragraph: "Dhivya has been in the Big Data scene right from its nascent stages working across all major platforms and variety of industries. Her insight on how Data should be looked at in the organizational context is the foundation of Rishi in many ways."
   },
   {
-    image:"./images/yadhu.png",
-    name:"Yadhu N",
-    title:"CTO",
-    paragraph:"A technology enthusiast, Yadhu brings to the table great wealth of experience in product management, insights into the latest technologies and deploying them appropriately to fit. He relates the feeling of going to tech conferences as like his childhood when he sees firecrackers during Diwali, what a nerd!"
+    image: "./images/yadhu.png",
+    name: "Yadhu N",
+    title: "CTO",
+    paragraph: "Yadhu dons multiple hats, one moment he is a technology enthusiast who brings out his great wealth of experience in Product Management. Another moment, he becomes a pure strategist looking at the big picture. This unique combination made him the ideal person to run our whole show."
   },
   {
-    image:"./images/vidhya.png",
-    name:"Vidhya S",
-    title:"CISO",
-    paragraph:"Our Chief information security officer with hands on experience in compliance, auditing and processes. Vidhya spearheaded our ISO 27001:2013 certification and is eager to get started on SOC 2. Yes, she drives everyone crazy with her processes, but we all bend the knee sooner or later."
+    image: "./images/vidhya.png",
+    name: "Vidhya S",
+    title: "CISO",
+    paragraph: "Our Chief information security officer with hands on experience in compliance, auditing and processes. Vidhya spearheaded our ISO 27001:2013 certification and is eager to get started on SOC 2. Yes, she drives everyone crazy with her processes, but we all bend the knee sooner or later."
   },
   {
-    image:"./images/vivek.png",
-    name:"Vivek N",
-    title:"DevOps Lead",
-    paragraph:"With rich experience in multiple programming, cloud and DevOps platforms, Vivek handles the infrastructure side of things. His obsession with efficiency while some may think is unhealthy, made him the ideal person to run our operations at its peak performance."
+    image: "./images/vivek.png",
+    name: "Vivek N",
+    title: "DevOps and Infra Director",
+    paragraph: "Vivek has diverse experience across several programming, cloud platforms and cross functional experience. He is our man who is on a mission of keeping the service reliable and scalable for all our clients. Keep your phones and scales handy mate!"
   },
   {
-    image:"./images/partners.png",
-    name:"Partners",
-    title:"Collaboration",
-    paragraph:"We work with few other startups based in India who are equally driven. This section would be incomplete without a mention of them"
+    image: "./images/vinodh.png",
+    name: "Vinodh D",
+    title: "Advisor",
+    paragraph: "One of our subject matter experts, Vinodh comes with strong Project Management experience within Solar Industry. He helps translate the complex requirements of a project site into bits and bytes so that we Techies can understand. He is organized, driven and bald."
+  },
+  {
+    image: "./images/emre.png",
+    name: "Emre AC",
+    title: "Advisor",
+    paragraph: "One of our other subject matter experts, Emre has been in the deep end of the EPC side of things in solar industry. He helps us to not lose sight of what the product should deliver, he is our much-needed reality check whenever we get too into our heads."
   }
 ]
 
 
+// export default function OurTeam() {
+//   return (
+//     <>
+//     <section className="team" id='our-team'>
+//         <div className="container">
+//             <div className="team__header text-center">
+//                 <h2>Our Team</h2>
+//             </div>
+//             <Swiper
+//         direction={"vertical"}
+//         slidesPerView={1}
+//         spaceBetween={30}
+
+//         mousewheel={true}
+//         pagination={{
+//           clickable: true,
+//         }}
+
+//         modules={[Mousewheel, Pagination]}
+//         className="mySwiper"
+//       >
+//         {
+//           team.map((ele, index)  =>{
+//           return( <SwiperSlide key={index}>
+//             <div className="row">
+//                 <div className="col-sm-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center">
+//                     <div className="team__img">
+//                         <img src={ele.image} alt="" />
+//                     </div>
+//                 </div>
+//                 <div className="col-sm-12 col-md-6 col-lg-6">
+//                   <div className="team__name">
+//                     <h3>{ele.name}</h3>
+//                   </div>
+//                   <div className="team__title mt-3">
+//                     <h4>{ele.title}</h4>
+//                   </div>
+//                   <div className="team__paragraph mt-5">
+//                     <p>{ele.paragraph}</p>
+//                   </div>
+//                 </div>
+//             </div>
+//         </SwiperSlide>  
+//           )}
+//           )
+//         }
+//       </Swiper>
+//         </div>
+//     </section>
+//     </>
+//   )
+// }
+
 export default function OurTeam() {
   return (
     <>
-    <section className="team" id='our-team'>
+      <section className="team" id='our-team'>
         <div className="container">
-            <div className="team__header text-center">
-                <h2>Our Team</h2>
-            </div>
-            <Swiper
-        direction={"vertical"}
-        slidesPerView={1}
-        spaceBetween={30}
-        
-        mousewheel={true}
-        pagination={{
-          clickable: true,
-        }}
-       
-        modules={[Mousewheel, Pagination]}
-        className="mySwiper"
-      >
-        {
-          team.map((ele, index)  =>{
-          return( <SwiperSlide key={index}>
-            <div className="row">
-                <div className="col-sm-12 col-md-6 col-lg-6 d-flex align-items-center justify-content-center">
-                    <div className="team__img">
-                        <img src={ele.image} alt="" />
-                    </div>
-                </div>
-                <div className="col-sm-12 col-md-6 col-lg-6">
-                  <div className="team__name">
+          <div className="team__header text-center">
+            <h2>Our Team</h2>
+          </div>
+          <div className="row mt-5" style={{ rowGap: "25px" }}>
+            {
+              team.map((ele, index) => {
+                return (<div className="col-lg-4">
+                  <div className="team__img">
+                    <img src={ele.image} alt="" />
+                  </div>
+                  <div className="team__name mt-3">
                     <h3>{ele.name}</h3>
                   </div>
                   <div className="team__title mt-3">
                     <h4>{ele.title}</h4>
                   </div>
-                  <div className="team__paragraph mt-5">
+                  <div className="team__paragraph mt-4">
                     <p>{ele.paragraph}</p>
                   </div>
                 </div>
+                )
+              })
+            }
+          </div>
+
+          <div className="partners">
+            <div className="team__img">
+              <img src="./images/partners.png" alt="" width={236} height={214} />
             </div>
-        </SwiperSlide>  
-          )}
-          )
-        }
-      </Swiper>
+            <div className="team--details">
+              <div className="team__name mt-3">
+                <h3>Partners</h3>
+              </div>
+              <div className="team__title mt-3">
+                <h4>Collaboration</h4>
+              </div>
+              <div className="team__paragraph mt-4">
+                <p>We work with few other startups based in India who are equally driven and skilled. They play an active role in getting our product to the shape that it is. We look at them as an extension of our internal team who just happened to be set up as separate entities.</p>
+              </div>
+            </div>
+          </div>
+
         </div>
-    </section>
+      </section>
     </>
   )
 }

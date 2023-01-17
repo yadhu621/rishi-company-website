@@ -74,10 +74,6 @@
     {
         font-size: 25px;
     }
-    .team__img img {
-        width: 220px;
-        height: 210px;
-    }
 
     .footer
     {
@@ -148,9 +144,11 @@
         height: 50px;
         width: 14px;
     }
-    .team
+    
+    .partners
     {
-        height: 760px;
+        flex-direction: column;
+        padding: 40px 20px;
     }
 
     .swiper
@@ -172,7 +170,7 @@
 
     .product--container
     {
-        margin-top: 40px;
+        padding-top: 40px;
     }
     .prdoduct--details
     {
@@ -186,5 +184,18 @@
     .team__paragraph 
     {
         margin-top: 2rem !important;
+    }
+    .partners, .why--surya .container
+    {
+        background-size: cover;
+    }
+    
+    .navbar-light .navbar-toggler
+    {
+        border: none !important;
+    }
+    .navbar-light .navbar-toggler-icon
+    {
+        background-image: url("/public/images/hamberger.svg");
     }
 }

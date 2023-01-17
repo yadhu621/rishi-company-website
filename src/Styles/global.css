@@ -37,6 +37,17 @@ textarea {
     resize: none;
 }
 
+.home,.product--top
+{
+    position: relative;
+}
+
+.product--top
+{
+    background: #FEF5F1;
+}
+
+
 .header--container
 {
     background: #F26654;
@@ -69,6 +80,7 @@ textarea {
     line-height: 140%;
     text-decoration: none;
     margin: 0 20px;
+    padding: 16px 32px;
 }
 
 .active
@@ -77,6 +89,7 @@ textarea {
     border-radius: 60px;
     padding: 16px 32px;
     color: #FFFFFF;
+    transition:linear;
 }
 
 .home--container
@@ -114,7 +127,7 @@ textarea {
 
 .product--container
 {
-    margin-top: 130px;
+    padding-top: 130px;
 }
 
 .home__header h1,
@@ -290,10 +303,12 @@ textarea {
     color: rgba(255, 255, 255, 0.4);
 }
 
-.product--top__bg
+.product--topbg
 {
     background: #FEF5F1;
     width: 100%;
+    min-height: 260px;
+    position: absolute;
 }
 
 .surya__paragraph p
@@ -344,7 +359,7 @@ textarea {
 .why--surya .container
 {
     background-image: url("/public/images/bg1.png");
-    background-size: cover;
+    background-size: contain;
     padding: 95px 360px;
     width: 1240px;
     height: 350px;
@@ -503,12 +518,12 @@ textarea {
     color: #1C2436;
 }
 
-.team
+/* .team
 {
     background: url("/public/images/teambg.png");
     background-size: cover;
     height: 835px;
-}
+} */
 
 .swiper-pointer-events.swiper-vertical
 {
@@ -516,15 +531,22 @@ textarea {
     margin-top: 90px;
 }
 
-.team__img img
-{
-    width: 320px;
-    height: 320px;
-}
-
 .team__paragraph p
 {
-    width: 490px;
+    width: 400px;
+    font-size: 16px;
+}
+
+.partners
+{
+    background: url("/public/images/partnersbg.png");
+    background-size: contain;
+    padding: 52px 84px;
+    margin-top: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .swiper-pagination-bullet

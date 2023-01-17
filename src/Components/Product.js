@@ -37,7 +37,7 @@ export default function Product() {
 
   return (
     <>
-      <div className="product--top__bg">
+      <div className="product--topbg"></div>
         <Header />
         <section className="product--top">
           <div className="container">
@@ -62,7 +62,7 @@ export default function Product() {
             </div>
           </div>
         </section>
-      </div>
+
 
       <section className="surya">
         <div className="container">
