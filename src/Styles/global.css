@@ -541,7 +541,7 @@ textarea {
 {
     background: url("/public/images/partnersbg.png");
     background-size: contain;
-    padding: 52px 84px;
+    padding: 42px 84px;
     margin-top: 50px;
 
     display: flex;
