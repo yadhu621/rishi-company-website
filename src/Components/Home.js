@@ -20,8 +20,7 @@ export default function Home() {
                             <h4>Our expertise is development of custom-made digital applications for the industry. </h4>
                         </div>
                         <div className="header__img mt-4">
-                            <img src="./images/home1.png" alt="" />
-                            <img src="./images/home2.png" alt="" />
+                            <img src="./images/home1.png" alt="" />                            
                         </div>
                     </div>
                 </div>

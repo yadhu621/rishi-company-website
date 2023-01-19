@@ -118,14 +118,16 @@ export default function OurTeam() {
                   <div className="team__img">
                     <img src={ele.image} alt="" />
                   </div>
-                  <div className="team__name mt-3">
-                    <h3>{ele.name}</h3>
-                  </div>
-                  <div className="team__title mt-3">
-                    <h4>{ele.title}</h4>
-                  </div>
-                  <div className="team__paragraph mt-4">
-                    <p>{ele.paragraph}</p>
+                  <div className="team--details">
+                    <div className="team__name mt-3">
+                      <h3>{ele.name}</h3>
+                    </div>
+                    <div className="team__title mt-3">
+                      <h4>{ele.title}</h4>
+                    </div>
+                    <div className="team__paragraph mt-4">
+                      <p>{ele.paragraph}</p>
+                    </div>
                   </div>
                 </div>
                 )
@@ -137,7 +139,7 @@ export default function OurTeam() {
             <div className="team__img">
               <img src="./images/partners.png" alt="" width={236} height={214} />
             </div>
-            <div className="team--details">
+            <div className="partners--team__details">
               <div className="team__name mt-3">
                 <h3>Partners</h3>
               </div>

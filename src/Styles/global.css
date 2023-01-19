@@ -73,13 +73,12 @@ textarea {
 
 .nav-bar a
 {
-    color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.64);
     font-style: normal;
-    font-weight: 800;
+    font-weight: 500;
     font-size: 16px;
     line-height: 140%;
     text-decoration: none;
-    margin: 0 20px;
     padding: 16px 32px;
 }
 
@@ -88,7 +87,8 @@ textarea {
     background: rgba(254, 242, 241, 0.12);
     border-radius: 60px;
     padding: 16px 32px;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
+    font-weight: 600 !important;
     transition:linear;
 }
 
@@ -103,7 +103,7 @@ textarea {
     
 }
 
-.header__img 
+/* .header__img 
 {
     width: 100%;
     display: flex;
@@ -123,7 +123,7 @@ textarea {
     100%{
         transform: translateX(-100%);
     }
-}
+} */
 
 .product--container
 {
@@ -161,7 +161,7 @@ textarea {
 .hero,
 .team
 {
-    padding: 130px 0px;
+    padding: 100px 0px;
 }
 
 .about__header h2,
@@ -646,4 +646,16 @@ textarea {
     100%{
         transform: translateX(-200%);
     }
+}
+
+.team--details
+{
+    height: 194px;
+    overflow: hidden;
+}
+
+.team--details:hover
+{
+    height: 100%;
+    transition: all 2s ease-in;
 }

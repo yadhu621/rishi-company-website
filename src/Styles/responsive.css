@@ -198,4 +198,8 @@
     {
         background-image: url("/public/images/hamberger.svg");
     }
+    .team--details
+    {
+        height: 255px;
+    }
 }
