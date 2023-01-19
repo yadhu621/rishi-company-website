@@ -15,10 +15,10 @@
         align-items: initial !important;
     }
 
-    .nav-bar a
+    .nav-bar a,.contact--btn button
     {
-        color: #F26654;
-        padding: 20px 0;
+        color: #F26654 !important;
+        padding: 20px 0 !important;
 
     }
 
