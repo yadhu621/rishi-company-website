@@ -15,36 +15,48 @@ const team = [
     image: "./images/dhivya.png",
     name: "Dhivya S",
     title: "Founder",
+    background: "#FBEFE4",
+    imagebackground: "#F8E5D3",
     paragraph: "Dhivya has been in the Big Data scene right from its nascent stages working across all major platforms and variety of industries. Her insight on how Data should be looked at in the organizational context is the foundation of Rishi in many ways."
   },
   {
     image: "./images/yadhu.png",
     name: "Yadhu N",
     title: "CTO",
+    background: "#E4FBED",
+    imagebackground: "#CAF7DB",
     paragraph: "Yadhu dons multiple hats, one moment he is a technology enthusiast who brings out his great wealth of experience in Product Management. Another moment, he becomes a pure strategist looking at the big picture. This unique combination made him the ideal person to run our whole show."
   },
   {
     image: "./images/vidhya.png",
     name: "Vidhya S",
     title: "CISO",
+    background: "#FBF6E4",
+    imagebackground: "#F8F0D3",
     paragraph: "Our Chief information security officer with hands on experience in compliance, auditing and processes. Vidhya spearheaded our ISO 27001:2013 certification and is eager to get started on SOC 2. Yes, she drives everyone crazy with her processes, but we all bend the knee sooner or later."
   },
   {
     image: "./images/vivek.png",
     name: "Vivek N",
-    title: "DevOps and Infra Director",
+    title: "DevOps & <br/> Infra Director",
+    background: "#E4E7FB",
+    imagebackground: "#D3D8F8",
     paragraph: "Vivek has diverse experience across several programming, cloud platforms and cross functional experience. He is our man who is on a mission of keeping the service reliable and scalable for all our clients. Keep your phones and scales handy mate!"
   },
   {
     image: "./images/vinodh.png",
     name: "Vinodh D",
     title: "Advisor",
+    background: "#E4F8FB",
+    imagebackground: "#D3F3F8",
     paragraph: "One of our subject matter experts, Vinodh comes with strong Project Management experience within Solar Industry. He helps translate the complex requirements of a project site into bits and bytes so that we Techies can understand. He is organized, driven and bald."
   },
   {
     image: "./images/emre.png",
     name: "Emre AC",
     title: "Advisor",
+    background: "#E4E7FB",
+    imagebackground: "#D3D8F8",
     paragraph: "One of our other subject matter experts, Emre has been in the deep end of the EPC side of things in solar industry. He helps us to not lose sight of what the product should deliver, he is our much-needed reality check whenever we get too into our heads."
   }
 ]
@@ -116,21 +128,23 @@ export default function OurTeam() {
               team.map((ele, index) => {
                 return (<div className="col-lg-4">
                   <div className="animation" data-aos="zoom-in" data-aos-offset="10" data-aos-delay="20" data-aos-duration="2000">
-                    <div className="team__img">
-                      <img src={ele.image} alt="" />
+                    <div className="team__container" style={{background: `${ele.background}`}} key={index.image}>
+                      <div className="team__img" style={{background: `${ele.imagebackground}`}}>
+                        <img src={ele.image} alt="" />
+                      </div>
+                      <div className="team--details">
+                        <div className="team__name mt-3">
+                          <h3>{ele.name}</h3>
+                        </div>
+                        <div className="team__title mt-3">
+                          <div dangerouslySetInnerHTML={{__html:ele["title"]}}></div>
+                        </div>
+                      </div>
                     </div>
-                    <div className="team--details">
-                      <div className="team__name mt-3">
-                        <h3>{ele.name}</h3>
-                      </div>
-                      <div className="team__title mt-3">
-                        <h4>{ele.title}</h4>
-                      </div>
-                      <div className="team__paragraph mt-4">
-                        <p>{ele.paragraph}</p>
-                      </div>
+                    <div className="team__paragraph mt-4">
+                      <p>{ele.paragraph}</p>
                     </div>
-                  </div>
+                  </div>                  
                 </div>
                 )
               })
@@ -138,7 +152,7 @@ export default function OurTeam() {
           </div>
 
           <div className="partners">
-            <div className="team__img" data-aos="zoom-in" data-aos-offset="10" data-aos-delay="20" data-aos-duration="1000" data-aos-easing="ease-in-out">
+            <div className="partners__img" data-aos="zoom-in" data-aos-offset="10" data-aos-delay="20" data-aos-duration="1000" data-aos-easing="ease-in-out">
               <img src="./images/partners.png" alt="" width={236} height={214} />
             </div>
             <div className="partners--team__details" data-aos="slide-left" data-aos-offset="10" data-aos-delay="20" data-aos-duration="2000" data-aos-easing="ease-in-out">

@@ -508,8 +508,7 @@ textarea {
     flex-direction: column;
     text-align: center;
 }
-
-.team__title h4
+.team__title
 {
     font-style: normal;
     font-weight: 700;
@@ -648,15 +647,28 @@ textarea {
     }
 }
 
-.team--details
+.team__container
 {
-    height: 194px;
-    overflow: hidden;
+    display: flex;
+    align-items: center;
+
+    width: 400px;
+    height: 223px;
+    border-radius: 16px;
+    padding: 24px;
 }
 
-.team--details:hover
+.team__img
 {
+    width: 175px;
+    height: 175px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 25px;
+}
+
+.team__img img
+{
+    width: 100%;
     height: 100%;
-    margin-top: -80px;
-    background-color: #FFFFFF;
 }

@@ -30,10 +30,14 @@
 
     .header__subheading h4, .product__subheading h4,
     .about__paragraph p, .data--paragraph p, .hero__paragrapgh p,
-    .team__title h4, .surya__paragraph p, .success--paragraph p, .surya--paragraph p,
-    .certificate__details h3, .contact__mail a, .contact__location h5
+    .team__title, .surya__paragraph p, .success--paragraph p, .surya--paragraph p,
+    .certificate__details h3
     {
         font-size: 18px;
+    }
+
+    .contact__mail a, .contact__location h5 {
+        font-size: 16px;
     }
 
     .about, .solar, .Contact, .surya, .member, .data, .certificate, .hero, .team
@@ -72,7 +76,7 @@
     }
     .contact__name h3, .team__name h3
     {
-        font-size: 25px;
+        font-size: 24px;
     }
 
     .footer
@@ -198,8 +202,19 @@
     {
         background-image: url("/public/images/hamberger.svg");
     }
-    .team--details
+
+    .team__container
     {
-        height: 255px;
+        display: block;
+        background: none !important;
+        height: 350px;
+        padding: 0;
+    }
+
+    .team__img
+    {
+        width: 320px;
+        height: auto;
+        border-radius: 16px;
     }
 }
