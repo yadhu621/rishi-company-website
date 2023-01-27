@@ -108,25 +108,27 @@ export default function OurTeam() {
     <>
       <section className="team" id='our-team'>
         <div className="container">
-          <div className="team__header text-center">
+          <div className="team__header text-center" data-aos="fade-up" data-aos-offset="10" data-aos-delay="20" data-aos-duration="2000" data-aos-easing="ease-in-out">
             <h2>Our Team</h2>
           </div>
           <div className="row mt-5" style={{ rowGap: "25px" }}>
             {
               team.map((ele, index) => {
                 return (<div className="col-lg-4">
-                  <div className="team__img">
-                    <img src={ele.image} alt="" />
-                  </div>
-                  <div className="team--details">
-                    <div className="team__name mt-3">
-                      <h3>{ele.name}</h3>
+                  <div className="animation" data-aos="zoom-in" data-aos-offset="10" data-aos-delay="20" data-aos-duration="2000">
+                    <div className="team__img">
+                      <img src={ele.image} alt="" />
                     </div>
-                    <div className="team__title mt-3">
-                      <h4>{ele.title}</h4>
-                    </div>
-                    <div className="team__paragraph mt-4">
-                      <p>{ele.paragraph}</p>
+                    <div className="team--details">
+                      <div className="team__name mt-3">
+                        <h3>{ele.name}</h3>
+                      </div>
+                      <div className="team__title mt-3">
+                        <h4>{ele.title}</h4>
+                      </div>
+                      <div className="team__paragraph mt-4">
+                        <p>{ele.paragraph}</p>
+                      </div>
                     </div>
                   </div>
                 </div>
@@ -136,10 +138,10 @@ export default function OurTeam() {
           </div>
 
           <div className="partners">
-            <div className="team__img">
+            <div className="team__img" data-aos="zoom-in" data-aos-offset="10" data-aos-delay="20" data-aos-duration="1000" data-aos-easing="ease-in-out">
               <img src="./images/partners.png" alt="" width={236} height={214} />
             </div>
-            <div className="partners--team__details">
+            <div className="partners--team__details" data-aos="slide-left" data-aos-offset="10" data-aos-delay="20" data-aos-duration="2000" data-aos-easing="ease-in-out">
               <div className="team__name mt-3">
                 <h3>Partners</h3>
               </div>

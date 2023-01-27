@@ -44,7 +44,7 @@ export default function Product() {
             <div className="product--container">
               <div className="row">
                 <div className="col-sm-12 col-md-6 col-lg-6">
-                  <div className='prdoduct--details'>
+                  <div className='prdoduct--details' data-aos="slide-right" data-aos-offset="10" data-aos-delay="100" data-aos-duration="2000">
                     <div className="product__header">
                       <h1>Install Solar projects quicker & better with Surya</h1>
                     </div>
@@ -54,7 +54,7 @@ export default function Product() {
                   </div>
                 </div>
                 <div className="col-sm-12 col-md-6 col-lg-6 d-flex align-items-end">
-                  <div className="product__img">
+                  <div className="product__img" data-aos="slide-left" data-aos-offset="10" data-aos-delay="100" data-aos-duration="2000">
                     <img src="./images/product1.png" alt="" />
                   </div>
                 </div>
@@ -76,7 +76,7 @@ export default function Product() {
               </div>
 
               <div className="surya--animation">
-                <div className="surya--box" data-aos="slide-down">
+                <div className="surya--box" data-aos="fade-down" data-aos-offset="120" data-aos-delay="100" data-aos-duration="2000">
                   <div className="surya--topic">
                     <h3>Visualize</h3>
                   </div>
@@ -90,7 +90,7 @@ export default function Product() {
                   </div>
                 </div>
 
-                <div className="surya--box" data-aos="slide-down">
+                <div className="surya--box" data-aos="fade-down" data-aos-offset="0" data-aos-delay="1200" data-aos-duration="2000">
                   <div className="surya--topic">
                     <h3>Manage</h3>
                   </div>
@@ -104,7 +104,7 @@ export default function Product() {
                   </div>
                 </div>
 
-                <div className="surya--box" data-aos="slide-down">
+                <div className="surya--box" data-aos="fade-down" data-aos-offset="0" data-aos-delay="1400" data-aos-duration="2000">
                   <div className="surya--topic">
                     <h3>Assure</h3>
                   </div>
@@ -132,10 +132,10 @@ export default function Product() {
 
       <section className='why--surya'>
         <div className="container">
-          <div className="surya--header">
+          <div className="surya--header" data-aos="fade-up" data-aos-offset="10" data-aos-delay="20" data-aos-duration="2000" data-aos-easing="ease-in-out">
             <h2>Why use Surya</h2>
           </div>
-          <div className="surya--paragraph mt-4">
+          <div className="surya--paragraph mt-4" data-aos="fade-up" data-aos-offset="10" data-aos-delay="20" data-aos-duration="2000" data-aos-easing="ease-in-out">
             <p>Simple, imagine a software which is custom-built, not just for your industry but for your specific project. That’s what we offer, contact us for a demo</p>
           </div>
         </div>
@@ -143,12 +143,12 @@ export default function Product() {
 
       <section className='member'>
         <div className="container">
-          <div className="member--header">
+          <div className="member--header" data-aos="fade-up" data-aos-offset="10" data-aos-delay="20" data-aos-duration="2000" data-aos-easing="ease-in-out">
             <h2>Why become a member of Surya</h2>
           </div>
           <div className="row mt-15">
             <div className="col-sm-12 col-md-4 col-lg-4">
-              <div className="member-box">
+              <div className="member-box" data-aos="zoom-in-down" data-aos-offset="10" data-aos-delay="20" data-aos-duration="2000">
                 <div className="member--icon">
                   <img src="./images/data.png" alt="" />
                 </div>
@@ -162,7 +162,7 @@ export default function Product() {
             </div>
 
             <div className="col-sm-12 col-md-4 col-lg-4">
-              <div className="member-box">
+              <div className="member-box" data-aos="zoom-in-down" data-aos-offset="10" data-aos-delay="20" data-aos-duration="2000">
                 <div className="member--icon">
                   <img src="./images/benefit.png" alt="" />
                 </div>
@@ -176,7 +176,7 @@ export default function Product() {
             </div>
 
             <div className="col-sm-12 col-md-4 col-lg-4">
-              <div className="member-box">
+              <div className="member-box" data-aos="zoom-in-down" data-aos-offset="10" data-aos-delay="20" data-aos-duration="2000">
                 <div className="member--icon">
                   <img src="./images/reaily.png" alt="" />
                 </div>
@@ -197,10 +197,10 @@ export default function Product() {
         <div className="container">
           <div className="row">
             <div className="col-sm-12 col-md-6 col-lg-6">
-              <div className="data--header">
+              <div className="data--header" data-aos="fade-up" data-aos-offset="10" data-aos-delay="20" data-aos-duration="2000" data-aos-easing="ease-in-out">
                 <h2>Data security</h2>
               </div>
-              <div className="data--paragraph mt-5">
+              <div className="data--paragraph mt-5" data-aos="slide-right" data-aos-offset="10" data-aos-delay="1000" data-aos-duration="2000">
                 <p>Your data security is our highest priority. Our company and the platform SURYA are assessed and conform to the requirements of <span onClick={() => setModalShow(true)}>ISO 27001:2013</span> (Information security management system).
                   <br />
                   <br />
@@ -217,7 +217,9 @@ export default function Product() {
               
             </div>
             <div className="col-sm-12 col-md-6 col-lg-6">
-              <img src="./images/security.png" alt="" />
+              <div className="data--img" data-aos="slide-left" data-aos-offset="10" data-aos-delay="1000" data-aos-duration="2000">
+                <img src="./images/security.png" alt="" />
+              </div>
             </div>
           </div>
         </div>
@@ -248,13 +250,13 @@ export default function Product() {
 
       <section className="hero">
         <div className="container">
-          <div className="hero__img">
+          <div className="hero__img" data-aos="fade-up" data-aos-offset="10" data-aos-delay="20" data-aos-duration="2000" data-aos-easing="ease-in-out">
             <img src="./images/heroicon.png" alt="" height={80} width={80} />
           </div>
-          <div className="hero__header mt-4">
+          <div className="hero__header mt-4" data-aos="fade-up" data-aos-offset="10" data-aos-delay="20" data-aos-duration="2000" data-aos-easing="ease-in-out">
             <h2>What does <br /> the future look like</h2>
           </div>
-          <div className="hero__paragrapgh mt-4">
+          <div className="hero__paragrapgh mt-4" data-aos="fade-up" data-aos-offset="10" data-aos-delay="20" data-aos-duration="2000" data-aos-easing="ease-in-out">
             <p>This is just the beginning; we intend to connect and service all technologies and all companies, big and small within the utility scale solar industry through Surya. We consider empowering such companies our highest privilege as each of these companies makes the world a better place.</p>
           </div>
         </div>

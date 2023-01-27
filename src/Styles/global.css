@@ -657,5 +657,6 @@ textarea {
 .team--details:hover
 {
     height: 100%;
-    transition: all 2s ease-in;
+    margin-top: -80px;
+    background-color: #FFFFFF;
 }
