@@ -146,7 +146,7 @@ export default function Product() {
           </div>
           <div className="row mt-15">
             <div className="col-sm-12 col-md-4 col-lg-4">
-              <div className="member-box" data-aos="zoom-in-down" data-aos-offset="10" data-aos-delay="20" data-aos-duration="2000">
+              <div className="member-box">
                 <div className="member--icon">
                   <img src="./images/data.png" alt="" />
                 </div>
@@ -160,7 +160,7 @@ export default function Product() {
             </div>
 
             <div className="col-sm-12 col-md-4 col-lg-4">
-              <div className="member-box" data-aos="zoom-in-down" data-aos-offset="10" data-aos-delay="20" data-aos-duration="2000">
+              <div className="member-box">
                 <div className="member--icon">
                   <img src="./images/benefit.png" alt="" />
                 </div>
@@ -174,7 +174,7 @@ export default function Product() {
             </div>
 
             <div className="col-sm-12 col-md-4 col-lg-4">
-              <div className="member-box" data-aos="zoom-in-down" data-aos-offset="10" data-aos-delay="20" data-aos-duration="2000">
+              <div className="member-box">
                 <div className="member--icon">
                   <img src="./images/reaily.png" alt="" />
                 </div>
