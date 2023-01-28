@@ -121,7 +121,7 @@ export default function Product() {
             </div>
             <div className="col-sm-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-center ">
               <div className="surya--img">
-                <img src="./images/visualize.png" alt="" />
+                <img src="./images/about2.png" alt="" />
               </div>
             </div>
           </div>
