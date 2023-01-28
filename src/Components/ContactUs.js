@@ -23,7 +23,7 @@ export default function ContactUs() {
                     </div>
                 </div>
                 <div className="col-sm-12 col-md-5 col-lg-5 d-flex align-items-center justify-content-center">
-                    <div className="contact__img" data-aos="slide-left" data-aos-offset="10" data-aos-delay="20" data-aos-duration="2000">
+                    <div className="contact__img">
                         <img src="./images/contact.png" alt="" />
                     </div>
                 </div>

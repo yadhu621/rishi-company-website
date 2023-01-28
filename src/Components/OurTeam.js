@@ -152,10 +152,10 @@ export default function OurTeam() {
           </div>
 
           <div className="partners">
-            <div className="partners__img" data-aos="zoom-in" data-aos-offset="10" data-aos-delay="20" data-aos-duration="1000" data-aos-easing="ease-in-out">
+            <div className="partners__img">
               <img src="./images/partners.png" alt="" width={236} height={214} />
             </div>
-            <div className="partners--team__details" data-aos="slide-left" data-aos-offset="10" data-aos-delay="20" data-aos-duration="2000" data-aos-easing="ease-in-out">
+            <div className="partners--team__details" data-aos="fade-up" data-aos-offset="10" data-aos-delay="20" data-aos-duration="2000" data-aos-easing="ease-in-out">
               <div className="team__name mt-3">
                 <h3>Partners</h3>
               </div>

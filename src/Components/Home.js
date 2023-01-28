@@ -30,15 +30,15 @@ export default function Home() {
                 <div className="container">
                     <div className="row">
                         <div className="col-sm-12 col-md-6 col-lg-6 d-flex justify-content-center flex-column">
-                            <div className="about__header" data-aos="fade-up" data-aos-offset="0" data-aos-delay="20" data-aos-duration="2000" data-aos-easing="ease-in-out">
+                            <div className="about__header" data-aos="fade-up" data-aos-offset="0" data-aos-delay="10" data-aos-duration="1000" data-aos-easing="ease-in-out">
                                 <h2>About Rishi</h2>
                             </div>
-                            <div className="about__paragraph mt-4" data-aos="slide-right" data-aos-offset="10" data-aos-delay="200" data-aos-duration="1500">
+                            <div className="about__paragraph mt-4" data-aos="fade-up" data-aos-offset="10" data-aos-delay="50" data-aos-duration="1500">
                                 <p>Boutique technology consulting firm with a razor-sharp focus on utility scale solar industry. Our primary goal is to leverage all the latest digital technologies to lower the costs of construction and operation of solar power plants. In other words, we want to do our bit to make the world greener.</p>
                             </div>
                         </div>
                         <div className="col-sm-12 col-md-6 col-lg-6">
-                            <div className="about__img" data-aos="slide-left" data-aos-offset="10" data-aos-delay="200" data-aos-duration="2000">
+                            <div className="about__img">
                                 <img src="./images/about1.png" alt="" />
                             </div>
                         </div>

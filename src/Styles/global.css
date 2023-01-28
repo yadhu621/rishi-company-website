@@ -623,10 +623,10 @@ textarea {
 {
     width: 100%;
     display: flex;
-    animation: slide1 10s infinite;
+    /* animation: slide1 10s infinite; */
 }
 
-@keyframes slide1{
+/* @keyframes slide1{
     0%{
         transform: translateX(0);
     }
@@ -645,7 +645,7 @@ textarea {
     100%{
         transform: translateX(-200%);
     }
-}
+} */
 
 .team__container
 {
@@ -671,4 +671,16 @@ textarea {
 {
     width: 100%;
     height: 100%;
+}
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease-in;
+}
+  
+.reveal.active{
+    transform: translateY(0);
+    opacity: 1;
 }
