@@ -82,12 +82,12 @@ textarea {
     padding: 16px 32px;
 }
 
-.active
+.nav-bar a.active
 {
     background: rgba(254, 242, 241, 0.12);
     border-radius: 60px;
     padding: 16px 32px;
-    color: #FFFFFF !important;
+    color: #FFFFFF;
     font-weight: 600 !important;
     transition:linear;
 }

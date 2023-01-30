@@ -155,7 +155,7 @@ export default function OurTeam() {
             <div className="partners__img">
               <img src="./images/partners.png" alt="" width={236} height={214} />
             </div>
-            <div className="partners--team__details" data-aos="fade-up" data-aos-offset="10" data-aos-delay="20" data-aos-duration="2000" data-aos-easing="ease-in-out">
+            <div className="partners--team__details">
               <div className="team__name mt-3">
                 <h3>Partners</h3>
               </div>

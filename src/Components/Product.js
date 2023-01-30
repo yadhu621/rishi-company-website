@@ -65,9 +65,7 @@ export default function Product() {
 
 
       <section className="surya">
-        <div className="container">
-          <div className="row">
-            <div className="col-sm-12 col-md-6 col-lg-6">
+        <div className="container">            
               <div className="surya__logo">
                 <img src="./images/suryalogo.png" alt="" height={52} width={135} />
               </div>
@@ -75,6 +73,8 @@ export default function Product() {
                 <p>Launching in May 2023, members in SURYA working on projects with Nextracker technology can</p>
               </div>
 
+              <div className="row">
+              <div className="col-sm-12 col-md-6 col-lg-6">
               <div className="surya--animation">
                 <div className="surya--box reveal">
                   <div className="surya--topic">
@@ -130,10 +130,10 @@ export default function Product() {
 
       <section className='why--surya'>
         <div className="container">
-          <div className="surya--header" data-aos="fade-up" data-aos-offset="0" data-aos-delay="10" data-aos-duration="1500" data-aos-easing="ease-in-out">
+          <div className="surya--header">
             <h2>Why use Surya</h2>
           </div>
-          <div className="surya--paragraph mt-4" data-aos="fade-up" data-aos-offset="0" data-aos-delay="20" data-aos-duration="1500" data-aos-easing="ease-in-out">
+          <div className="surya--paragraph mt-4">
             <p>Simple, imagine a software which is custom-built, not just for your industry but for your specific project. That’s what we offer, contact us for a demo</p>
           </div>
         </div>
@@ -141,7 +141,7 @@ export default function Product() {
 
       <section className='member'>
         <div className="container">
-          <div className="member--header" data-aos="fade-up" data-aos-offset="10" data-aos-delay="20" data-aos-duration="2000" data-aos-easing="ease-in-out">
+          <div className="member--header">
             <h2>Why become a member of Surya</h2>
           </div>
           <div className="row mt-15">
@@ -214,7 +214,7 @@ export default function Product() {
               </div>
               
             </div>
-            <div className="col-sm-12 col-md-6 col-lg-6">
+            <div className="col-sm-12 col-md-6 col-lg-6 d-flex align-items-center">
               <div className="data--img">
                 <img src="./images/security.png" alt="" />
               </div>

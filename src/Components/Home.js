@@ -19,7 +19,7 @@ export default function Home() {
                         <div className="header__subheading mt-3" data-aos="fade-up" data-aos-offset="0" data-aos-delay="200" data-aos-duration="2000" data-aos-easing="ease-in-out">
                             <h4>Our expertise is development of custom-made digital applications for the industry. </h4>
                         </div>
-                        <div className="header__img mt-4" data-aos="zoom-in" data-aos-offset="10" data-aos-delay="200" data-aos-duration="2000" data-aos-easing="ease-in-out">
+                        <div className="header__img mt-4">
                             <img src="./images/home1.png" alt="" />                            
                         </div>
                     </div>
@@ -58,7 +58,7 @@ export default function Home() {
                             </div>
                         </div>
                         <div className="col-sm-12 col-md-6 col-lg-6 position-relative">
-                            <div className="solar__img" data-aos="zoom-in" data-aos-offset="0" data-aos-delay="20" data-aos-duration="2000" data-aos-easing="ease-in-out">
+                            <div className="solar__img">
                                 <img src="./images/solar.png" alt="" />
                             </div>
                         </div>
