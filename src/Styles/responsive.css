@@ -69,7 +69,7 @@
     .header--container
     {
         padding: 5px 20px;
-        margin-top: 0;
+        margin: 0 10px;
     }
 
     .contact--btn
@@ -77,30 +77,19 @@
         padding-right: 1rem;
     }
 
-    .nav-bar
-    {
-        align-items: initial !important;
-    }
     .offcanvas-header
     {
         justify-content: end;
     }
 
-    .nav-bar a,.contact--btn button
-    {
-        color: #F26654 !important;
-        padding: 20px 0 !important;
-
-    }
     .contact--btn button
     {
         background: none;
     }
 
-    .nav-bar a.active
+    .navbar-nav
     {
-        background: none;
-        padding: 0;
+        flex-direction: row;
     }
 
     .contact__mail a, .contact__location h5 {
@@ -244,10 +233,10 @@
     {
         border: none !important;
     }
-    .navbar-light .navbar-toggler-icon
+    /*.navbar-light .navbar-toggler-icon
     {
         background-image: url("/public/images/hamberger.svg");
-    }
+    } */
     .team__img
     {
         width: 117px;
@@ -256,5 +245,47 @@
     .success--paragraph p
     {
         margin-left: 20px;
+    }
+
+    /* .offcanvas
+    {
+        height: 150px;
+        width: 345px;
+        background: none;
+        border-left: 0;
+        transform: translateY(-100%);
+    } */
+    /* .offcanvas-body
+    {
+        background: #F26654;
+        width: 320px;
+        height: 102px;
+        box-shadow: -2px 4px 16px rgba(211, 213, 217, 0.32);
+        border-radius: 20px;
+        margin-top: 20px;
+    } */
+    .contact--btn
+    {
+        display: none;
+    }
+    nav .navbar-toggler {
+        display: grid !important;
+    }
+
+    nav .nav-bar {
+        position: absolute;       
+        transform: translateY(-100%);
+        z-index: 10;
+        transition-timing-function: linear;
+        background: #F26654;
+        width: 310px;
+        height: 102px;
+        box-shadow: -2px 4px 16px rgba(211, 213, 217, 0.32);
+        border-radius: 20px;
+        top: 0;
+    }
+    .navbar-toggler
+    {
+        padding-top: 10px;
     }
 }

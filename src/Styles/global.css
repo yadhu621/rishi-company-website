@@ -685,3 +685,40 @@ textarea {
     transform: translateY(0);
     opacity: 1;
 }
+
+nav .navbar-toggler {
+    display: none;
+    height: min-content;
+    cursor: pointer;
+}
+
+nav .navbar-toggler .bar {
+    width: 22px;
+    height: 3px;
+    margin-bottom: 5px;
+    background: #ffffff;
+    border-radius: 10%;
+    transition: .4s;
+}
+
+input {
+    display: none;
+}
+
+input:checked ~ nav .nav-bar{
+    transform: translateY(0);
+    top: 75px;
+}
+
+input:checked ~ nav .navbar-toggler .bar:nth-child(1) {
+    position: absolute;
+    transform: rotate(45deg);
+}
+
+input:checked ~ nav .navbar-toggler .bar:nth-child(2) {
+    display: none;
+}
+
+input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
+    transform: rotate(-45deg);
+}

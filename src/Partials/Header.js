@@ -5,24 +5,20 @@ import { HashLink } from 'react-router-hash-link'
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import { Offcanvas } from 'react-bootstrap';
 
 export default function Header() {
   return (
     <>
+    <input type="checkbox" id="toggle"/>
     <Navbar key='md' expand='md'>
             <Container className='header--container'>
                 <Navbar.Brand href="/"><img src="./images/rishilogo.svg" alt="" /></Navbar.Brand>
-                <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-md`} />
-                <Navbar.Offcanvas
-                    id={`offcanvasNavbar-expand-md`}
-                    aria-labelledby={`offcanvasNavbarLabel-expand-md`}
-                    placement="end"
-                    className="activewhite"
-                >
-                    <Offcanvas.Header closeButton>
-                    </Offcanvas.Header>
-                    <Offcanvas.Body>
+                <label class="navbar-toggler" for="toggle">
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                        <span class="bar"></span>
+                    </label>
+                
                         <Nav className="nav-bar justify-content-center flex-grow-1 align-items-center pe-3">
                             <NavLink to="/" >Home</NavLink>
                             <NavLink to="/product">Product</NavLink>
@@ -30,8 +26,7 @@ export default function Header() {
                         <div className="contact--btn"> 
                         <HashLink to={"/#contact-us"} smooth><button type='submit'>Contact Us</button></HashLink>
                         </div>
-                    </Offcanvas.Body>
-                </Navbar.Offcanvas>
+                
             </Container>
         </Navbar>
     </>
