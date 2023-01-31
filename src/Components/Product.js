@@ -45,10 +45,10 @@ export default function Product() {
               <div className="row">
                 <div className="col-sm-12 col-md-6 col-lg-6">
                   <div className='prdoduct--details'>
-                    <div className="product__header" data-aos="fade-up" data-aos-offset="0" data-aos-delay="10" data-aos-duration="2000">
+                    <div className="product__header">
                       <h1>Install Solar projects quicker & better with Surya</h1>
                     </div>
-                    <div className="product__subheading mt-5" data-aos="fade-up" data-aos-offset="0" data-aos-delay="50" data-aos-duration="2000">
+                    <div className="product__subheading mt-5">
                       <h4>Custom made B2B digital platform exclusively catering to utility scale solar industry players</h4>
                     </div>
                   </div>
@@ -248,13 +248,13 @@ export default function Product() {
 
       <section className="hero">
         <div className="container">
-          <div className="hero__img" data-aos="fade-up" data-aos-offset="10" data-aos-delay="20" data-aos-duration="1500" data-aos-easing="ease-in-out">
+          <div className="hero__img">
             <img src="./images/heroicon.png" alt="" height={80} width={80} />
           </div>
-          <div className="hero__header mt-4" data-aos="fade-up" data-aos-offset="10" data-aos-delay="20" data-aos-duration="1500" data-aos-easing="ease-in-out">
+          <div className="hero__header mt-4">
             <h2>What does <br /> the future look like</h2>
           </div>
-          <div className="hero__paragrapgh mt-4" data-aos="fade-up" data-aos-offset="10" data-aos-delay="20" data-aos-duration="1500" data-aos-easing="ease-in-out">
+          <div className="hero__paragrapgh mt-4">
             <p>This is just the beginning; we intend to connect and service all technologies and all companies, big and small within the utility scale solar industry through Surya. We consider empowering such companies our highest privilege as each of these companies makes the world a better place.</p>
           </div>
         </div>

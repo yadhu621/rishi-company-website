@@ -7,10 +7,10 @@ export default function ContactUs() {
         <div className="container">
             <div className="row">
                 <div className="col-sm-12 col-md-7 col-lg-7">
-                    <div className="contact__header" data-aos="fade-up" data-aos-offset="30" data-aos-delay="0" data-aos-duration="1500" data-aos-easing="ease-in-out">
+                    <div className="contact__header">
                         <h2>Contact us</h2>
                     </div>
-                    <div className="contact--container" data-aos="zoom-in" data-aos-offset="10" data-aos-delay="20" data-aos-duration="2000" data-aos-easing="ease-in-out">
+                    <div className="contact--container">
                         <div className="contact__name">
                             <h3>Rishi Management Consulting</h3>
                         </div>
