@@ -92,6 +92,20 @@ export default function Product() {
 
                 <div className="surya--box reveal">
                   <div className="surya--topic">
+                    <h3>Assure</h3>
+                  </div>
+                  <div className="surya__list d-flex align-items-center mt-4">
+                    <div className="success--logo">
+                      <img src="./images/Success.png" alt="" height={32} width={32} />
+                    </div>
+                    <div className="success--paragraph">
+                      <p>Conduct quality checks, add to punch lists, track resolution</p>
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="surya--box reveal">
+                  <div className="surya--topic">
                     <h3>Manage</h3>
                   </div>
                   <div className="surya__list d-flex align-items-center mt-4">
@@ -104,19 +118,6 @@ export default function Product() {
                   </div>
                 </div>
 
-                <div className="surya--box reveal">
-                  <div className="surya--topic">
-                    <h3>Assure</h3>
-                  </div>
-                  <div className="surya__list d-flex align-items-center mt-4">
-                    <div className="success--logo">
-                      <img src="./images/Success.png" alt="" height={32} width={32} />
-                    </div>
-                    <div className="success--paragraph">
-                      <p>Conduct quality checks, add to punch lists, track resolution</p>
-                    </div>
-                  </div>
-                </div>
               </div>
             </div>
             <div className="col-sm-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-center ">

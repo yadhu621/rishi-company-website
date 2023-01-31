@@ -21,7 +21,7 @@
 
     .header__subheading h4, .product__subheading h4,
     .about__paragraph p, .data--paragraph p, .hero__paragrapgh p,
-    .team__title, .surya__paragraph p, .success--paragraph p, .surya--paragraph p,
+    .team__title, .surya__paragraph p, .surya--paragraph p,
     .certificate__details h3, .member--header h3
     {
         font-size: 18px;
@@ -34,7 +34,7 @@
     
     .solar__header h3, .surya--topic h3
     {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .contact__name h3, .team__name h3
@@ -155,6 +155,11 @@
     {
         row-gap: 65px;
     }
+
+    .surya--box
+    {
+        padding: 20px;
+    }
     .swiper-slide .row
     {
         row-gap: 30px;
@@ -245,6 +250,7 @@
     .success--paragraph p
     {
         margin-left: 20px;
+        font-size: 16px;
     }
 
     /* .offcanvas
