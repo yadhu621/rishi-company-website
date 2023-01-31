@@ -235,7 +235,7 @@ export default function Product() {
                 <h3>BQSR2042</h3>
               </div>
             </div>
-            <div className="certificate__arrow" >
+            <div className="certificate__arrow">
               <img src="./images/arrow.png" alt="" />
             </div>
           </div>

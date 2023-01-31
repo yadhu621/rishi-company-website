@@ -363,6 +363,7 @@ textarea {
     padding: 95px 360px;
     width: 1240px;
     height: 350px;
+    border-radius: 16px;
 }
 
 .surya--header h2

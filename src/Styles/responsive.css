@@ -16,7 +16,7 @@
 
     .about, .solar, .contact, .surya, .member, .data, .certificate, .hero, .team
     {
-        padding: 70px 0px;
+        padding: 70px 10px;
     }
 
     .header__subheading h4, .product__subheading h4,
@@ -27,21 +27,14 @@
         font-size: 18px;
     }
 
-    .about__header h2, .team__header h2, .contact__header h2, .member--header h2, .data--header h2, .hero__header h2,
-    .surya--topic h3, .surya--header h2
+    .about__header h2, .team__header h2, .contact__header h2, .member--header h2, .data--header h2, .hero__header h2, .surya--header h2
     {
         font-size: 30px;
     }
     
-    .solar__header h3
+    .solar__header h3, .surya--topic h3
     {
         font-size: 25px;
-    }
-
-    .contact--btn button, .solar__product--btn button
-    {
-        padding: 8px 16px;
-        font-size: 14px;
     }
 
     .contact__name h3, .team__name h3
@@ -54,21 +47,11 @@
         height: 160px;
     }
 
-    .team__img
-    {
-        width: 108px;
-        height: 108px;
-    }
-
     .why--surya .container
     {
         padding: 59px 218px;
         width: 916px;
         height: 259px;
-    }
-    .hero
-    {
-        padding: 85px 225px;
     }
 
     .member-box
@@ -124,11 +107,6 @@
         font-size: 16px;
     }
 
-    .about, .solar, .Contact, .surya, .member, .data, .certificate, .hero, .team
-    {
-        padding: 100px 0px;
-    }
-
     .solar .container
     {
         padding: 70px 10px;
@@ -179,7 +157,9 @@
 
     .why--surya .container
     {
-        padding: 50px 10px;
+        padding: 70px 35px;
+        width: 320px;
+        height: 350px;
     }
     .member .row,
     .surya .row
@@ -248,7 +228,7 @@
     }
     .success--logo img
     {
-        width: 25px;
+        width: 32px;
         height: 25px;
     }
     .team__paragraph 
@@ -268,19 +248,13 @@
     {
         background-image: url("/public/images/hamberger.svg");
     }
-
-    .team__container
-    {
-        display: block;
-        background: none !important;
-        height: 400px;
-        padding: 0;
-    }
-
     .team__img
     {
-        width: 320px;
-        height: auto;
-        border-radius: 16px;
+        width: 117px;
+        height: 117px;
+    }
+    .success--paragraph p
+    {
+        margin-left: 20px;
     }
 }
