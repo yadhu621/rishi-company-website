@@ -543,7 +543,7 @@ textarea {
     background-size: contain;
     padding: 42px 84px;
     margin-top: 50px;
-
+    border-radius: 16px;
     display: flex;
     align-items: center;
     justify-content: space-between;
