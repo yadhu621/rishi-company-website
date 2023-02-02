@@ -220,10 +220,9 @@
     {
         margin-bottom: 50px;
     }
-    .success--logo img
+    .success--logo svg
     {
-        width: 32px;
-        height: 25px;
+        font-size: 25px;
     }
     .team__paragraph 
     {
@@ -249,7 +248,7 @@
     }
     .success--paragraph p
     {
-        margin-left: 20px;
+        margin-left: 12px;
         font-size: 16px;
     }
 

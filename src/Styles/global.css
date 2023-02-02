@@ -722,3 +722,9 @@ input:checked ~ nav .navbar-toggler .bar:nth-child(2) {
 input:checked ~ nav .navbar-toggler .bar:nth-child(3) {
     transform: rotate(-45deg);
 }
+
+.success--logo svg
+{
+    color: #03AB5A;
+    font-size: 25px;
+}

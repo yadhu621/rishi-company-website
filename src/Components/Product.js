@@ -2,7 +2,7 @@ import React from 'react'
 import Footer from '../Partials/Footer'
 import Header from '../Partials/Header'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faDownload } from "@fortawesome/free-solid-svg-icons";
+import { faDownload, faCircleCheck } from "@fortawesome/free-solid-svg-icons";
 
 import Modal from 'react-bootstrap/Modal';
 
@@ -82,7 +82,7 @@ export default function Product() {
                   </div>
                   <div className="surya__list d-flex align-items-center mt-4">
                     <div className="success--logo">
-                      <img src="./images/Success.png" alt="" height={32} width={32} />
+                      <FontAwesomeIcon icon={faCircleCheck}/>
                     </div>
                     <div className="success--paragraph">
                       <p>Record, monitor and track construction progress</p>
@@ -96,7 +96,7 @@ export default function Product() {
                   </div>
                   <div className="surya__list d-flex align-items-center mt-4">
                     <div className="success--logo">
-                      <img src="./images/Success.png" alt="" height={32} width={32} />
+                      <FontAwesomeIcon icon={faCircleCheck}/>
                     </div>
                     <div className="success--paragraph">
                       <p>Conduct quality checks, add to punch lists, track resolution</p>
@@ -110,7 +110,7 @@ export default function Product() {
                   </div>
                   <div className="surya__list d-flex align-items-center mt-4">
                     <div className="success--logo">
-                      <img src="./images/Success.png" alt="" height={32} width={32} />
+                      <FontAwesomeIcon icon={faCircleCheck}/>
                     </div>
                     <div className="success--paragraph">
                       <p>Add details of site staff, manage and track work hours by activity</p>
