@@ -76,7 +76,11 @@ export default function Product() {
               <div className="row">
               <div className="col-sm-12 col-md-6 col-lg-6">
               <div className="surya--animation">
-                <div className="surya--box reveal">
+                <div className="surya--box" data-aos="slide-up"
+                                            data-aos-offset="20"
+                                            data-aos-delay="50"
+                                            data-aos-duration="1000"
+                                            data-aos-easing="ease-in-out">
                   <div className="surya--topic">
                     <h3>Visualize</h3>
                   </div>
@@ -90,7 +94,11 @@ export default function Product() {
                   </div>
                 </div>
 
-                <div className="surya--box reveal">
+                <div className="surya--box" data-aos="slide-up"
+                                            data-aos-offset="20"
+                                            data-aos-delay="50"
+                                            data-aos-duration="1000"
+                                            data-aos-easing="ease-in-out">
                   <div className="surya--topic">
                     <h3>Assure</h3>
                   </div>
@@ -104,7 +112,11 @@ export default function Product() {
                   </div>
                 </div>
                 
-                <div className="surya--box reveal">
+                <div className="surya--box" data-aos="slide-up"
+                                            data-aos-offset="20"
+                                            data-aos-delay="50"
+                                            data-aos-duration="1000"
+                                            data-aos-easing="ease-in-out">
                   <div className="surya--topic">
                     <h3>Manage</h3>
                   </div>
