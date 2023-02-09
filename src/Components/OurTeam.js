@@ -13,7 +13,7 @@ import React from 'react'
 const team = [
   {
     image: "./images/dhivya.png",
-    name: "Dhivya S",
+    name: "Dhivya",
     title: "Founder",
     background: "#FBEFE4",
     imagebackground: "#F8E5D3",
@@ -21,15 +21,15 @@ const team = [
   },
   {
     image: "./images/yadhu.png",
-    name: "Yadhu N",
-    title: "CTO",
+    name: "Yadhu",
+    title: "CEO",
     background: "#E4FBED",
     imagebackground: "#CAF7DB",
     paragraph: "Yadhu dons multiple hats, one moment he is a technology enthusiast who brings out his great wealth of experience in Product Management. Another moment, he becomes a pure strategist looking at the big picture. This unique combination made him the ideal person to run our whole show."
   },
   {
     image: "./images/vidhya.png",
-    name: "Vidhya S",
+    name: "Vidhya",
     title: "CISO",
     background: "#FBF6E4",
     imagebackground: "#F8F0D3",
@@ -37,7 +37,7 @@ const team = [
   },
   {
     image: "./images/vivek.png",
-    name: "Vivek N",
+    name: "Vivek",
     title: "DevOps & <br/> Infra Director",
     background: "#E4E7FB",
     imagebackground: "#D3D8F8",
@@ -45,7 +45,7 @@ const team = [
   },
   {
     image: "./images/vinodh.png",
-    name: "Vinodh D",
+    name: "Vinodh",
     title: "Advisor",
     background: "#E4F8FB",
     imagebackground: "#D3F3F8",
@@ -53,7 +53,7 @@ const team = [
   },
   {
     image: "./images/emre.png",
-    name: "Emre AC",
+    name: "Emre",
     title: "Advisor",
     background: "#E4E7FB",
     imagebackground: "#D3D8F8",
