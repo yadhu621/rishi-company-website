@@ -17,7 +17,15 @@ const team = [
     title: "Founder",
     background: "#FBEFE4",
     imagebackground: "#F8E5D3",
-    paragraph: "Dhivya has been in the Big Data scene right from its nascent stages working across all major platforms and variety of industries. Her insight on how Data should be looked at in the organizational context is the foundation of Rishi in many ways."
+    paragraph: "Meet Dhivya who started it all, she is our Big Data slayer with a wealth of experience across major platforms and industries. Her savvy insights wield the power of data, driving Rishi's success. She's the secret sauce in our Big Data recipe."
+  },
+  {
+    image: "./images/vinodh.png",
+    name: "Vinodh",
+    title: "Advisor",
+    background: "#E4F8FB",
+    imagebackground: "#D3F3F8",
+    paragraph: "Introducing Vinodh, one of our subject matter experts in the solar industry with a strong background in project management. He excels at breaking down complex requirements into techie-friendly bytes. He’s also incredibly organized, driven, and bald."
   },
   {
     image: "./images/yadhu.png",
@@ -25,7 +33,7 @@ const team = [
     title: "CEO",
     background: "#E4FBED",
     imagebackground: "#CAF7DB",
-    paragraph: "Yadhu dons multiple hats, one moment he is a technology enthusiast who brings out his great wealth of experience in Product Management. Another moment, he becomes a pure strategist looking at the big picture. This unique combination made him the ideal person to run our whole show."
+    paragraph: "A full-on tech enthusiast, Yadu brings to the table great wealth of experience in product management and delivery. He is that kind of a nerd who enjoys attending tech conferences, learning from them, and schooling us mortals."
   },
   {
     image: "./images/vidhya.png",
@@ -33,7 +41,15 @@ const team = [
     title: "CISO",
     background: "#FBF6E4",
     imagebackground: "#F8F0D3",
-    paragraph: "Our Chief information security officer with hands on experience in compliance, auditing and processes. Vidhya spearheaded our ISO 27001:2013 certification and is eager to get started on SOC 2. Yes, she drives everyone crazy with her processes, but we all bend the knee sooner or later."
+    paragraph: "Meet Vidhya: our compliance, auditing, and process guru! She conquered ISO 27001:2013 certification and drives us all a bit crazy with her processes, but we all bend the knee sooner or later."
+  },
+  {
+    image: "./images/emre.png",
+    name: "Emre",
+    title: "Advisor",
+    background: "#E4E7FB",
+    imagebackground: "#D3D8F8",
+    paragraph: "Our solar industry superhero, Emre has been in the deep end of the EPC side of things. He is the guardian of our product’s purpose and a much-needed reality check whenever we get too into our heads."
   },
   {
     image: "./images/vivek.png",
@@ -42,22 +58,6 @@ const team = [
     background: "#E4E7FB",
     imagebackground: "#D3D8F8",
     paragraph: "Vivek has diverse experience across several programming, cloud platforms and cross functional experience. He is our man who is on a mission of keeping the service reliable and scalable for all our clients. Keep your phones and scales handy mate!"
-  },
-  {
-    image: "./images/vinodh.png",
-    name: "Vinodh",
-    title: "Advisor",
-    background: "#E4F8FB",
-    imagebackground: "#D3F3F8",
-    paragraph: "One of our subject matter experts, Vinodh comes with strong Project Management experience within Solar Industry. He helps translate the complex requirements of a project site into bits and bytes so that we Techies can understand. He is organized, driven and bald."
-  },
-  {
-    image: "./images/emre.png",
-    name: "Emre",
-    title: "Advisor",
-    background: "#E4E7FB",
-    imagebackground: "#D3D8F8",
-    paragraph: "One of our other subject matter experts, Emre has been in the deep end of the EPC side of things in solar industry. He helps us to not lose sight of what the product should deliver, he is our much-needed reality check whenever we get too into our heads."
   }
 ]
 
