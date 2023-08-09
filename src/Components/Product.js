@@ -70,7 +70,7 @@ export default function Product() {
                 <img src="./images/suryalogo.png" alt="" height={52} width={135} />
               </div>
               <div className="surya__paragraph">
-                <p>Launching in May 2023, members in SURYA working on projects with Nextracker technology can</p>
+                <p>Our launch version v1.0 enables customers working on projects with Nextracker Technology to</p>
               </div>
 
               <div className="row">
