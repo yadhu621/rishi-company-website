@@ -141,7 +141,7 @@ export default function Product() {
         </div>
       </section>
 
-      <section className='why--surya'>
+      {/* <section className='why--surya'>
         <div className="container">
           <div className="surya--header">
             <h2>Why use Surya</h2>
@@ -150,7 +150,7 @@ export default function Product() {
             <p>Simple, imagine a software which is custom-built, not just for your industry but for your specific project. That’s what we offer, contact us for a demo</p>
           </div>
         </div>
-      </section>
+      </section> */}
 
       <section className='member'>
         <div className="container">
