@@ -215,7 +215,7 @@ export default function Product() {
                 <p>Your data security is our highest priority. Our company and the platform SURYA are assessed and conform to the requirements of <span onClick={() => setModalShow(true)}>ISO 27001:2013</span> (Information security management system).
                   <br />
                   <br />
-                  Yes, we are a startup but data security and compliance is where we spent first. We shunned the idea of building an MVP (Minimum viable product) or rather we interpreted it as Maximum Viable Product to offer you a fully functional & complete service with the necessary security systems in place.
+                  Yes, we are a startup but data security and compliance is where we spent first. We shunned the idea of building an MVP (Minimum viable product) or rather we interpreted it as Maximum Viable Product to offer you a fully functional & complete product with the necessary security systems in place.
                   <br />
                   <br />
                   That’s not all, we have plans to become SOC 2 compliant in 2023. Rest assured, the product will have the highest data security standards in line and most likely better than industry standards.
