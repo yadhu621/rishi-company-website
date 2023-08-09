@@ -163,7 +163,7 @@ export default function OurTeam() {
                 <h4>Collaboration</h4>
               </div>
               <div className="team__paragraph mt-4">
-                <p>We work with few other startups based in India who are equally driven and skilled. They play an active role in getting our product to the shape that it is. We look at them as an extension of our internal team who just happened to be set up as separate entities.</p>
+                <p>We work with a few other awesome startups who played an active role in getting our product to the shape that it is. In many ways, they are an extension of us who just happened to be set up as separate entities.</p>
               </div>
             </div>
           </div>
