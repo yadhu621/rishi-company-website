@@ -34,7 +34,7 @@ export default function Home() {
                                 <h2>About Rishi</h2>
                             </div>
                             <div className="about__paragraph mt-4">
-                                <p>Boutique technology consulting firm with a razor-sharp focus on utility scale solar industry. Our primary goal is to leverage all the latest digital technologies to lower the costs of construction and operation of solar power plants. In other words, we want to do our bit to make the world greener.</p>
+                                <p>Boutique technology firm with a razor-sharp focus on utility scale solar industry. Our primary goal is to leverage all the latest digital technologies to lower the costs of construction and operation of solar power plants. In other words, we want to do our bit to make the world greener.</p>
                             </div>
                         </div>
                         <div className="col-sm-12 col-md-6 col-lg-6">
