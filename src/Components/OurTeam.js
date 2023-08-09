@@ -33,7 +33,7 @@ const team = [
     title: "CEO",
     background: "#E4FBED",
     imagebackground: "#CAF7DB",
-    paragraph: "A full-on tech enthusiast, Yadu brings to the table great wealth of experience in product management and delivery. He is that kind of a nerd who enjoys attending tech conferences, learning from them, and schooling us mortals."
+    paragraph: "A full-on tech enthusiast, Yadhu brings to the table great wealth of experience in product management and delivery. He is that kind of a nerd who enjoys attending tech conferences, learning from them, and schooling us mortals."
   },
   {
     image: "./images/vidhya.png",
