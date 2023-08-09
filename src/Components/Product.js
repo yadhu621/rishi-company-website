@@ -112,7 +112,7 @@ export default function Product() {
                   </div>
                 </div>
                 
-                <div className="surya--box" data-aos="slide-up"
+                {/* <div className="surya--box" data-aos="slide-up"
                                             data-aos-offset="20"
                                             data-aos-delay="50"
                                             data-aos-duration="1000"
@@ -128,7 +128,7 @@ export default function Product() {
                       <p>Add details of site staff, manage and track work hours by activity</p>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
               </div>
             </div>
