@@ -20,17 +20,9 @@ const team = [
     paragraph: "Meet Dhivya who started it all, she is our Big Data slayer with a wealth of experience across major platforms and industries. Her savvy insights wield the power of data, driving Rishi's success. She's the secret sauce in our Big Data recipe."
   },
   {
-    image: "./images/vinodh.png",
-    name: "Vinodh",
-    title: "Advisor",
-    background: "#E4F8FB",
-    imagebackground: "#D3F3F8",
-    paragraph: "Introducing Vinodh, one of our subject matter experts in the solar industry with a strong background in project management. He excels at breaking down complex requirements into techie-friendly bytes. He’s also incredibly organized, driven, and bald."
-  },
-  {
     image: "./images/yadhu.png",
     name: "Yadhu",
-    title: "CEO",
+    title: "CTO",
     background: "#E4FBED",
     imagebackground: "#CAF7DB",
     paragraph: "A full-on tech enthusiast, Yadhu brings to the table great wealth of experience in product management and delivery. He is that kind of a nerd who enjoys attending tech conferences, learning from them, and schooling us mortals."
@@ -42,6 +34,14 @@ const team = [
     background: "#FBF6E4",
     imagebackground: "#F8F0D3",
     paragraph: "Meet Vidhya: our compliance, auditing, and process guru! She conquered ISO 27001:2013 certification and drives us all a bit crazy with her processes, but we all bend the knee sooner or later."
+  },
+  {
+    image: "./images/vinodh.png",
+    name: "Vinodh",
+    title: "Advisor",
+    background: "#E4F8FB",
+    imagebackground: "#D3F3F8",
+    paragraph: "Introducing Vinodh, one of our subject matter experts in the solar industry with a strong background in project management. He excels at breaking down complex requirements into techie-friendly bytes. He’s also incredibly organized, driven, and bald."
   },
   {
     image: "./images/emre.png",
